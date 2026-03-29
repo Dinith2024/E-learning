@@ -26,13 +26,8 @@
     body
     {
         background: url('reviewback.jpg') no-repeat;
-       
-        
     }
 </style>
-
-
-
 
 <?php
 if(isset($_GET['fullname']))
@@ -66,7 +61,6 @@ else
 {
 echo "";
 }
-   
    
         $time= date("m/d/y G.i:s<br>", time());
 		$sql = "insert into contacttable values('$fullname','$email','$message','$subject','$time')";
