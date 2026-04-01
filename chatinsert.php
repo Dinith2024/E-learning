@@ -4,7 +4,6 @@
     Name<input type="text" name="username"  value="admin" readonly ><br>
     message<input type="text" name="msg"><br>
   
-
     <input type="submit" value="send">
 </form>
 -->
@@ -29,13 +28,11 @@
         width:80px;
         padding: 8px;
         color: white;
-        
     }
 </style>
 <?php
     session_start();
 ?>
-
 
 <!--to send message-->
 <?php
@@ -68,15 +65,11 @@ else
 echo "";
 }
 
-	
-	
-	 
         $time= date("m/d/y G.i:s<br>", time());
 		$sql = "insert into chattable values('$username','$message','$time')";
         $result = mysqli_query($conn,$sql);
 //		echo "message sent!";
         header('Location: chat2.php');
-     
   
 }}}
 ?>
