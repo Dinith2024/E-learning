@@ -40,12 +40,9 @@ td
     box-sizing: border-box;
 }
 
-
-
 .heading {
     font-size: 25px;
     margin-right: 25px;
-    
     
 }
 
@@ -110,8 +107,6 @@ td
 }
 </style>
 <body>
-    
-
 
 </body>
 
@@ -139,9 +134,6 @@ $row = mysqli_fetch_assoc($result);
 <span class='fa fa-star checked'></span>
 <span class='fa fa-star'></span>
 <p style='color:white;'>3.4 average based on ".$row['no_avg']." reviews.</p></div>";
-
-    
-    
     
 $result = mysqli_query($conn,'SELECT AVG(ui) AS ui_avg FROM ratingtable'); 
 $row = mysqli_fetch_assoc($result); 
