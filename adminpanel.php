@@ -10,11 +10,6 @@
     body {
   font-family: Arial, Helvetica, sans-serif;
           
-    
-        
-       
-        
-    
 }
     .adpg
     {
@@ -50,7 +45,6 @@
     .adminimage
     {
         border-radius: 50%;
-        
         
     }
     .adminhead
@@ -114,7 +108,6 @@
         right: 90px;
     }
   
-    
     .mybutton {
   border-radius: 0px 40px 40px 0px;
   background-color: #5FCF80;
@@ -220,11 +213,6 @@
 </form>
     </div>
 <center>
-   
-    
-    
-    
-    
     
 <div class="dashboard">
 
@@ -247,10 +235,6 @@
     </div>
     </div>
     </center>
-    
-    
-    
-    
     
     <div class="dash2">
   <form action="adsuggestion.php" method="get">
