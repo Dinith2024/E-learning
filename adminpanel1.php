@@ -23,11 +23,6 @@ display_c();
     body {
   font-family: Arial, Helvetica, sans-serif;
           
-    
-        
-       
-        
-    
 }
     .card
     {
@@ -57,9 +52,6 @@ display_c();
         width:20%;
         border:1px solid grey;
         font-family: serif;
-        
-    
-       
         
     }
     
