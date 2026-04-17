@@ -10,8 +10,6 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-
-
 <div id="limit">
 <center >
 <form action="adchatinsert.php" method="POST" class="chatinput" >
@@ -22,10 +20,7 @@
     <button type="submit" class="btn btn-lg btn-success" style="border-radius:50%;"><span class="glyphicon glyphicon-send"></span></button>
 </form>
     
-   
-    
-    
-    
+
 </center>
 <style>
     .chatmsg
