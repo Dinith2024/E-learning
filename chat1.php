@@ -26,9 +26,6 @@
     
     
     
-    
-    
-
 </center>
 <style>
     .chatmsg
