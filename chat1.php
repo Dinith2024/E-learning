@@ -1,7 +1,5 @@
 <form action="deletechat.php" method="GET" >
    
-  
-
     <button type="submit"  class="btn btn-danger" style="position:absolute;top:20px;left:10px;">Delete all chat</button>
 </form>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
