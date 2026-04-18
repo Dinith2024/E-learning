@@ -216,19 +216,6 @@
     <br>
     <br>
     
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
   <div class="modal fade" id="login" role="dialog">
     <div class="modal-dialog modal-sm">
 
