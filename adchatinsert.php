@@ -33,8 +33,6 @@
     }
 </style>
 
-
-
 <!--to send message-->
 <?php
 if(isset($_POST['username']))
