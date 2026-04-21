@@ -317,13 +317,6 @@ display_c();
   </nav>
   <!--/ Navigation bar--><br><br><br>
 
-
-   
-    
-    
-    
-    
-
 <br>
 <div class="dashboard">
 
