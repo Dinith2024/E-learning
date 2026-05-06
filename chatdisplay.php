@@ -9,7 +9,6 @@
         padding: 8px;
         color: white;
        
-        
     }
      .adchatmsg
     {
