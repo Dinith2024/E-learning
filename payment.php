@@ -99,10 +99,6 @@ $result=mysqli_query($conn,"select * from exptable where fname='$fname' and pass
         echo "<div class='card text-white bg-success mb-3' style='max-width: 18rem;'><div class='card-header'>Transaction Successfull!</div><div class='card-body'><h5 class='card-title'>Congrats,". $_SESSION["username"]."</h5><p class='card-text'>We have added <b style='color:white;'>".$coursename. "</b><br>to your account </p><button class='btn-success'><a href='myaccount.php'>My Account</a></button></div></div>";
         echo "</center>";   
         
-        
-        
-        
-        
     }
 	
    
