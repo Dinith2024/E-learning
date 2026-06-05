@@ -69,18 +69,6 @@ echo "Connection error";
 else{
 echo "";
 
-    
-    
- 
-    
-    
-    
-    
-    
-    
-    
-    
-    
 $fname=$_SESSION["username"];
 $result=mysqli_query($conn,"select * from reviewtable where username='$fname'")
 				or die("FAILED!!".mysql_error());
