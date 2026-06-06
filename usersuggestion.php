@@ -86,8 +86,6 @@ while($row = mysqli_fetch_assoc($result)){
     echo "<tr>";
      echo  "<td>".$i."</td> <td>".$row['comment']."</td><td>".$row['time']."</td>";
     echo "</tr>";
-    
-
 
 }
 echo "</table>";
