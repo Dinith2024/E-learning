@@ -159,11 +159,6 @@ session_start();
 </style>
 
 
-
-
-
-
-
 <body>
  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
