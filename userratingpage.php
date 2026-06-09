@@ -198,10 +198,6 @@ session_start();
     
 </div>
 
-
-  
-    
-    
 </form>
 </center>
   <footer id="footer" class="footer">
