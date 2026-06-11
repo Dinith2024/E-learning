@@ -38,9 +38,6 @@ session_start();
 
 ?>
 
-
-
-
 <?php
 
 $fname=$_SESSION["username"];
