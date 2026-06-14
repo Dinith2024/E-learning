@@ -34,8 +34,6 @@
 <?php
 session_start();
 
-
-
 ?>
 
 <?php
@@ -71,8 +69,6 @@ else
 echo "";
 }
 
-	
-	   
      		$sql = "insert into ratingtable values('$fname','$ui','$performance','$design','$usablity')";
            $result = mysqli_query($conn,$sql);
 		  echo"<center>"; 
