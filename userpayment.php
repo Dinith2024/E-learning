@@ -112,8 +112,6 @@ while($row = mysqli_fetch_assoc($result)){
      echo  "<td>".$i."</td> <td>".$row['coursename']."</td><td>".$row['time']."</td><td>
      <button class='dwnldbtn'><a  download='courses/".$row['coursename'].".pdf' href='courses/".$row['coursename'].".pdf'><i class='fa fa-download'></i>Download</a></td></button>";
     echo "</tr>";
-    
-
 
 }
 echo "</table>";
