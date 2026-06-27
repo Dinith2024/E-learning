@@ -69,18 +69,6 @@ echo "Connection error";
 }
 else{
 echo "";
-
-    
-    
- 
-    
-    
-    
-    
-    
-    
-    
-    
     
 $fname=$_SESSION["username"];
 $result=mysqli_query($conn,"select * from contacttable where fullname='$fname'")
