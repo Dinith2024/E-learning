@@ -1,4 +1,3 @@
-
 <?php
     session_start();
     
@@ -53,7 +52,6 @@ td
   color: white;
 }
 </style>
-
 
 <?php
 
