@@ -27,11 +27,9 @@
       body
     {
         background: url('reviewback.jpg') no-repeat;
-       
         
     }
 </style>
-
 
 <body>
 <?php
@@ -82,7 +80,6 @@ $result=mysqli_query($conn,"select * from exptable where fname='$fname'")
         echo "</center>"; 
 	}
 
-  
 }}}
 ?>
 </body>
