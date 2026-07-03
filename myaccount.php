@@ -17,12 +17,6 @@
           
   font-family: Arial, Helvetica, sans-serif;
      
-          
-    
-        
-       
-        
-    
 }
     .adpg
     {
