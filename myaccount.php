@@ -45,10 +45,6 @@
         font-family: serif;
 /*        display: inline;*/
         
-        
-    
-       
-        
     }
     @media screen and (max-width: 900px) 
     {
@@ -184,8 +180,6 @@
         margin-top: -20px;
         position: relative;
         left: 7px;
-        
-        
         
     }
 
