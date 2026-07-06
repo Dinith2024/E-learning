@@ -93,9 +93,7 @@
     $i++;
    }
       
-        
-  
-        
+
           echo "<div class='side'>
     <div>Messages</div>
   </div>
@@ -108,9 +106,6 @@
     <div>".$i."%</div>
   </div>";
 
-        
-        
-       
 
  }
 else
@@ -144,8 +139,6 @@ echo "0 results";
    }
       
         
-  
-        
           echo "<div class='side'>
     <div>Account users</div>
   </div>
@@ -158,9 +151,6 @@ echo "0 results";
     <div>".$i."%</div>
   </div>";
 
-        
-        
-       
 
  }
 else
@@ -194,8 +184,6 @@ echo "0 results";
    }
       
         
-  
-        
           echo "<div class='side'>
     <div>Courses bought</div>
   </div>
@@ -209,9 +197,6 @@ echo "0 results";
   </div>";
 
         
-        
-       
-
  }
 else
 {
@@ -244,8 +229,6 @@ echo "0 results";
    }
       
         
-  
-        
           echo "<div class='side'>
     <div>User suggestions</div>
   </div>
@@ -259,9 +242,6 @@ echo "0 results";
   </div>";
 
         
-        
-       
-
  }
 else
 {
