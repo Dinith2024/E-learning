@@ -259,34 +259,7 @@
 <div style="line-height:0px;">
 <form action="userprofile.php" method="get">
     <button type="submit"  class="links"><span class="glyphicon glyphicon-user"></span>My Profile
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     </button>
 </form>
 <form action="usersuggestion.php" method="get">
