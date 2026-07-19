@@ -296,41 +296,8 @@ $result=mysqli_query($conn,"select * from reviewtable where username='$fname'")
               echo "<span class='badge' style='background:red;'>".$i."</span>";
              $fname="";
     
-       
-    
-	
-   
-	
-
-  
 }}
 ?>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     </button>
 </form>
