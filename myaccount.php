@@ -234,13 +234,6 @@
   </nav>
   <!--/ Navigation bar--><br><br><br>
 
-
-   
-    
-    
-    
-    
-    
 <div class="dashboard">
 
     <div class="adminhead">
@@ -335,13 +328,6 @@ $result=mysqli_query($conn,"select * from contacttable where fullname='$fname'")
                   }
               echo "<span class='badge' style='background:red;'>".$i."</span>";
              $fname="";
-    
-       
-    
-	
-   
-	
-
   
 }
               else 
@@ -352,12 +338,6 @@ $result=mysqli_query($conn,"select * from contacttable where fullname='$fname'")
 }
 ?>
       
-    
-    
-    
-    
-    
-    
     </button>
 </form>
 <br>
@@ -388,8 +368,6 @@ $result=mysqli_query($conn,"select * from paymenttable where fname='$fname'")
               while($row = mysqli_fetch_assoc($result))
               {
                   $i++;  
-                  
-
 
                   }
               echo "<span class='badge' style='background:red;'>".$i."</span>";
