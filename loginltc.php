@@ -3,7 +3,6 @@
     
 ?>
 
-
 <!--
 <form action="loginltc.php" method="get">
     Name<input type="text" name="fname"><br>
