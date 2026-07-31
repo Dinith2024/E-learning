@@ -23,14 +23,6 @@
 </style>
 
 
-
-
-
-
-
-
-
-
 <?php
 if(isset($_GET['fname']))
 {
