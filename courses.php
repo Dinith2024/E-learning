@@ -25,11 +25,6 @@
     
      }
     
-    
-    
-    
-    
-    
     .mouse
     {
         transform: rotate(90deg);
@@ -98,11 +93,8 @@
 
 .cardcontainer {
     padding: 2px 16px;
-  
     
 }
-
-
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -221,11 +213,7 @@ color:white;
                 
                 document.getElementById("couselect").value=btnId;
                       document.getElementById("couselect").readOnly=true;
-                
-                
-            
-                
-                
+
 			}
     </script>
    
@@ -289,12 +277,6 @@ color:white;
                   <!---Alredy exists  ! -->
                   <span class="glyphicon glyphicon-education form-control-feedback" style="background-color: rgb(230,230,230);"></span>
                 </div>
-                  
-                  
-                  
-                  
-                  
-                  
                 <div class="row">
                   <div class="col-xs-12">
                     <div class="checkbox icheck">
