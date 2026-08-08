@@ -8,7 +8,6 @@
     Name<input type="text" name="fname"><br>
     password<input type="text" name="pwd"><br>
    
-
     <input type="submit">
 </form>
 -->
@@ -31,7 +30,6 @@
     {
         background: url('reviewback.jpg') no-repeat;
        
-        
     }
 </style>
 
@@ -76,8 +74,6 @@ $result=mysqli_query($conn,"select * from exptable where fname='$fname' and pass
       {
 	   if($row['fname']==$fname and $row['password']==$password)
        {
-           
-           
            
           $_SESSION["username"]=$fname;  
 		echo"<center>"; 
