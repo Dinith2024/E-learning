@@ -227,45 +227,6 @@
     
 <!--    end of signup form-->
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
   <div class="banner">
     <div class="bg-color">
       <div class="container">
