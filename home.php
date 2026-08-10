@@ -658,23 +658,7 @@
           </div>
         </form>
 <!--          MESSAGE FORM-->
-          
-    
-
-
-
-
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
+  
 
       </div>
     </div>
