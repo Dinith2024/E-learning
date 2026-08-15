@@ -61,22 +61,16 @@ else
 {
 echo "";
 }
-   
         $time= date("m/d/y G.i:s<br>", time());
 		$sql = "insert into contacttable values('$fullname','$email','$message','$subject','$time')";
         $result = mysqli_query($conn,$sql);
 		echo"<center>"; 
         echo "<div class='card text-white bg-success mb-3' style='max-width: 18rem;'><div class='card-header'>Messade Sent!</div><div class='card-body'><h5 class='card-title'>Thank You,".$fullname."</h5><p class='card-text'>We appreciate you for taking out your valueable time for us </p><button class='btn-secondary'><a href='http://localhost/ltc/'>Continue</button></div></div>";
         echo "</center>"; 
-    
-	
-
-  
 }
 else
 {
     echo "error";
 }
-
 }}
 ?>
