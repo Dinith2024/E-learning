@@ -58,12 +58,6 @@ else
 echo "";
 }
 
-	
-	
-	 
-       
-       
-       
         $sql = "Select * from chattable order by time desc";
         $result = mysqli_query($conn,$sql);
         if (mysqli_num_rows($result) > 0)
@@ -71,7 +65,6 @@ echo "";
                while($row = mysqli_fetch_assoc($result))
                {
         
-       
                  if($row["username"]=='admin')
                  {
                   echo  "<span class='adchatmsg'><img src='admin.jpg'> &nbsp;&nbsp;&nbsp;&nbsp;".$row["message"]."<span class='time'>".substr($row["time"],8)."</span></span><br><br>";
