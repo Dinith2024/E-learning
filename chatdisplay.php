@@ -19,14 +19,11 @@
         width:100px;
         padding: 8px;
         color: white;
-       
     }
     .time
     {
-        
         color: white;
         font-size: 12px;
-       
     }
     img
     {
@@ -35,10 +32,7 @@
         height: 40px;
         border-radius: 50%;
         border:2px solid white;
-       
     }
-
-
 </style>
 <!--to send message-->
 <?php
@@ -57,7 +51,6 @@ else
 {
 echo "";
 }
-
         $sql = "Select * from chattable order by time desc";
         $result = mysqli_query($conn,$sql);
         if (mysqli_num_rows($result) > 0)
@@ -73,12 +66,7 @@ echo "";
                    {
                       echo  "<span class='chatmsg'><img src='deafaultuser.jpg'>&nbsp;&nbsp;&nbsp;&nbsp; ".$row["message"]."<span class='time'>".substr($row["time"],8)."</span></span><br><br>"; 
                    }
-                 
-
               }
         }
-       
-     
-  
 }
 ?>
