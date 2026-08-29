@@ -3,15 +3,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <center><h1>Non-Authenticated User Send Suggestion</h1></center><hr>
-
 <style>
-
 .ntf
     {
         color:red;
         position: absolute;
         top:0px;
-        
     }
 .msg
     {
@@ -25,7 +22,6 @@
     {
         width:100%;
         font-weight: bolder;
-        
     }
 td
     {
@@ -41,11 +37,9 @@ td
   display: inline-block;
   border-radius: 2px;
 }
-
 .notification:hover {
   background: red;
 }
-
 .badge {
   position: absolute;
   top: 5px;
@@ -56,10 +50,7 @@ td
   color: white;
 }
 </style>
-
-
 <?php
-
 $i=0;
 if($_SERVER['REQUEST_METHOD']=="GET"){
 $localhost = "localhost";
@@ -89,17 +80,11 @@ echo "<tr >";
 echo  "<td >".$i."</td>"."<td>".$row["fullname"]."</td><td>".$row["email"]."</td><td> ".$row["subject"]."</td><td>".$row["message"]."</td><td>".$row["time"]."</td><td><button >Delete</button>";
 echo "</td>";
 echo "</tr>";
-
-
 }
 echo "</table>";
-
-
 echo "<span class='badge'>$i</span>";
-
 }
 else{
-
 echo "0 results";
 }
 }
