@@ -432,40 +432,6 @@ In the modern world, with the amount of problems and their complexity increasing
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
   <!--/ Contact-->
   <!--Footer-->
   <footer id="footer" class="footer">
