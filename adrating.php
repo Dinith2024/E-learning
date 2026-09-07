@@ -189,15 +189,6 @@ $row = mysqli_fetch_assoc($result);
     <div>".$row['des_avg']."%</div>
   </div>";
     
-    
-    
-    
-    
-    
-    
-    
-    
-
 $result = mysqli_query($conn,'SELECT AVG(usablity) AS us_avg FROM ratingtable'); 
 $row = mysqli_fetch_assoc($result); 
 //echo "Average usablity rating ".$row['us_avg']."<br>";
