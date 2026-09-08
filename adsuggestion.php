@@ -17,7 +17,6 @@ body {
         color:red;
         position: absolute;
         top:0px;
-        
     }
 .msg
     {
@@ -31,7 +30,6 @@ body {
     {
         width:100%;
          font-weight: bolder;
-        
     }
 td
     {
@@ -47,7 +45,6 @@ td
   color: white;
 }
 </style>
-
 <?php
 
 $i=0;
@@ -62,7 +59,6 @@ echo "Connection error";
 }
 else{
 echo "";
-
 $sql = "Select * from reviewtable order by time desc";
 $result = mysqli_query($conn,$sql);
 echo "<table class='cont-head'>";
@@ -76,18 +72,14 @@ if (mysqli_num_rows($result) > 0) {
 while($row = mysqli_fetch_assoc($result)){
     $i++;
 echo "<tr >";
-
 echo  "<td >".$i."</td>"."<td>".$row["username"]."</td><td>".$row["comment"]."</td><td>".$row["time"]."</td><td><button >Delete</button>";
 echo "</td>";
 echo "</tr>";
-
-
 }
 echo "</table>";
 echo "<span class='badge'>$i</span>";
 }
 else{
-
 echo "0 results";
 }
 }
