@@ -4,7 +4,6 @@
     Name<input type="text" name="username"  value="admin" readonly ><br>
     message<input type="text" name="msg"><br>
   
-
     <input type="submit" value="send">
 </form>
 -->
