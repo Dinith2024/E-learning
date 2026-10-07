@@ -21,7 +21,6 @@
    .modal-header
     {
         background-color:#5FCF80;
-        
     }
     .mybutton {
   border-radius: 0px 40px 40px 0px;
