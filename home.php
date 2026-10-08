@@ -102,7 +102,6 @@
           <li><a href="#feature">Features</a></li>
           <li><a href="aboutus.php">About us</a></li>
           
-          
           <li><a href="#" data-target="#login" data-toggle="modal">Log in</a></li>
           <li class="btn-trial"><a href="#" data-target="#signin" data-toggle="modal">Sign in</a></li>
         </ul>
