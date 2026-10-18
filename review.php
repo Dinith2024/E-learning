@@ -44,8 +44,7 @@ if($username=="" || $comment=="")
 
 }
 else
-{
-    
+{  
 if($_SERVER['REQUEST_METHOD']=="GET")//con establish
 {
 $localhost = "localhost";
