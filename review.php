@@ -24,7 +24,6 @@
     body
     {
         background: url('reviewback.jpg') no-repeat;
-       
     }
 </style>
 
