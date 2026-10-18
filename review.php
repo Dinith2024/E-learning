@@ -63,7 +63,6 @@ echo "";
 	$row=mysqli_fetch_array($result);
       if($row['fname']!=$username)
     {
-        
 		echo"<center>"; 
         echo "<div class='card text-white bg-danger mb-3' style='max-width: 18rem;'><div class='card-header'>Suggestion could not be sent!</div><div class='card-body'><h5 class='card-title'>Username is incorrect!</h5><p class='card-text'>Only account holders can give suggestions! </p><button class='btn-success'><a href='home.php'>Create Account</a></button>&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn-secondary'><a href='http://localhost/ltc/'>Go Back!</a></button></div></div>";
         echo "</center>"; 
