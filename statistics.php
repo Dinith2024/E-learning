@@ -5,8 +5,7 @@
 
 .heading {
     font-size: 25px;
-    margin-right: 25px;
-    
+    margin-right: 25px;  
 }
 
 .fa {
