@@ -17,7 +17,6 @@
         position: relative;
         top:120px;
         width:450px;
-        
     }
     a,a:hover
     {
