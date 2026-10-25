@@ -29,7 +29,6 @@ session_start();
    .modal-header
     {
         background-color:#5FCF80;
-        
     }
 
     a,a:hover
