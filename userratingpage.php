@@ -131,7 +131,6 @@ session_start();
         text-align: center;
         padding-top: 15px;
         
-        
     }
     #userrating
     {
