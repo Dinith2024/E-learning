@@ -152,7 +152,6 @@ session_start();
     {
     #userrating{width:auto;}
         
-    
      }
 </style>
 
