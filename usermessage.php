@@ -34,7 +34,6 @@ body {
     {
         width:100%;
          font-weight: bolder;
-        
     }
 td
     {
