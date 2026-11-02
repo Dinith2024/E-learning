@@ -21,6 +21,7 @@ body {
         color:red;
         position: absolute;
         top:0px;
+		
     }
 .msg
     {
