@@ -83,7 +83,6 @@ $result=mysqli_query($conn,"select * from exptable where fname='$fname' and pass
 	  }
 	  else
 	  {
-		
 		echo"<center>"; 
         echo "<div class='card text-white bg-danger mb-3' style='max-width: 18rem;'><div class='card-header'>Login Failed!</div><div class='card-body'><h5 class='card-title'>Username or Password is incorrect!!</h5><p class='card-text'>Looks like you have forgot your username or password </p><button class='btn-danger'><a href='forgotpassword.html'>Forgot Password!</a></button>&nbsp;&nbsp;&nbsp;&nbsp;<button class='btn-secondary'><a href='http://localhost/ltc/'>Go Back!</a></button></div></div>";
         echo "</center>"; 
