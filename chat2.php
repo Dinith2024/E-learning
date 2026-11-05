@@ -102,7 +102,6 @@
      $sql = "UPDATE counter SET visit=visit+1 WHERE id = 3";
     $result = mysqli_query($conn,$sql);
  }
-
 }
 
 ?>
