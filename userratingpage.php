@@ -130,7 +130,6 @@ session_start();
         height:70px;
         text-align: center;
         padding-top: 15px;
-        
     }
     #userrating
     {
