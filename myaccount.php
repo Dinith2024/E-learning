@@ -64,7 +64,6 @@
         width:130px;
         height:130px;
         
-        
     }
     .adminhead
     {
