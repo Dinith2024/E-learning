@@ -15,7 +15,6 @@
     {
     .coursecards {display:block;}
         .card{display: block;min-width: 300px;}
-    
      }
     
      @media screen and (max-width: 1000px) 
