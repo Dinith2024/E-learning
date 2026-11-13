@@ -16,7 +16,6 @@ if(!$conn)
   else
    {
        echo "";
-
     }
 }
 ?>
