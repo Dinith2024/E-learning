@@ -75,9 +75,6 @@ echo "";
         echo "<div class='card text-white bg-success mb-3' style='max-width: 18rem;'><div class='card-header'>Suggestion Submitted!</div><div class='card-body'><h5 class='card-title'>Thank You,".$username."</h5><p class='card-text'>We appreciate you for taking out your valueable time for us </p><button class='btn-secondary'><a href='home.php'>Continue</button></div></div>";
         echo "</center>"; 
     }
-	
-
-  
 }}}
 ?>
 </body>
