@@ -67,7 +67,6 @@
         display: none;
     }
 }
-
 </style>
 
 <?php
