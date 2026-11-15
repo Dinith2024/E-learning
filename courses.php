@@ -311,12 +311,6 @@ color:white;
  <p><button type="submit" id="javascript"  onClick='showMessage(this.id)'>Buy the course</button></p>
 </div>
    
-    
-    
-    
-    
-    
-    
      <div class="card" >
   <img src="course2.jpg" alt="John" >
   <h1>React JS</h1>
