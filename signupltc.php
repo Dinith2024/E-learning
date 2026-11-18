@@ -77,7 +77,6 @@ $result=mysqli_query($conn,"select * from exptable where fname='$fname'")
         echo "<div class='card text-white bg-success mb-3' style='max-width: 18rem;'><div class='card-header'>Account Created!</div><div class='card-body'><h5 class='card-title'>Welcome,".$fname."</h5><p class='card-text'>Hello welcome to the family of learners </p><button class='btn-success'><a href='home.php'>Go Home!</button></div></div>";
         echo "</center>"; 
 	}
-
 }}}
 ?>
 </body>
