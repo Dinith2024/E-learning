@@ -17,7 +17,6 @@
         width:80px;
         padding: 8px;
         color: white;
-        
     }
      .adchatmsg
     {
