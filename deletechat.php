@@ -47,7 +47,6 @@ else
 {
 echo "";
 }
-
 		$sql = "delete  from  chattable ";
         $result = mysqli_query($conn,$sql);
 //		echo "message sent!";
