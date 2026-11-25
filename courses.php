@@ -20,7 +20,6 @@
      @media screen and (max-width: 1000px) 
     {
     #cform{min-width: 500px;}
-        
      }
     
     .mouse
